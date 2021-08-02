@@ -1,0 +1,208 @@
+/* Define 12-column layout */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* For Desktop >=992px */
+.row{
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-desktop-1, .col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6, .col-desktop-7, .col-desktop-8, .col-desktop-9, .col-desktop-10, .col-desktop-11, .col-desktop-12
+    {
+        float: left;
+        padding: 20px;
+    }
+    .col-desktop-1 {
+        width: 8.33%;
+    }
+    .col-desktop-2 {
+        width: 16.66%;
+    }
+    .col-desktop-3 {
+        width: 25%;
+    }
+    .col-desktop-4 {
+        width: 33.33%;
+    }
+    .col-desktop-5 {
+        width: 41.66%;
+    }
+    .col-desktop-6 {
+        width: 50%;
+    }
+    .col-desktop-7 {
+        width: 58.33%;
+    }
+    .col-desktop-8 {
+        width: 66.66%;
+    }
+    .col-desktop-9 {
+        width: 74.99%;
+    }
+    .col-desktop-10 {
+        width: 83.33%;
+    }
+    .col-desktop-11 {
+        width: 91.66%;
+    }
+    .col-desktop-12 {
+        width: 100%;
+    }
+}
+
+/* For Tablet 768~991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, .col-tablet-12
+    {
+        float: left;
+        padding: 20px;
+    }
+    .col-tablet-1 {
+        width: 8.33%;
+    }
+    .col-tablet-2 {
+        width: 16.66%;
+    }
+    .col-tablet-3 {
+        width: 25%;
+    }
+    .col-tablet-4 {
+        width: 33.33%;
+    }
+    .col-tablet-5 {
+        width: 41.66%;
+    }
+    .col-tablet-6 {
+        width: 50%;
+    }
+    .col-tablet-7 {
+        width: 58.33%;
+    }
+    .col-tablet-8 {
+        width: 66.66%;
+    }
+    .col-tablet-9 {
+        width: 74.99%;
+    }
+    .col-tablet-10 {
+        width: 83.33%;
+    }
+    .col-tablet-11 {
+        width: 91.66%;
+    }
+    .col-tablet-12 {
+        width: 100%;
+    }
+}
+
+/* For Mobile Phone <=767px */
+@media (max-width: 767px) {
+    .col-mobile-1, .col-mobile-2, .col-mobile-3, .col-mobile-4, .col-mobile-5, .col-mobile-6, .col-mobile-7, .col-mobile-8, .col-mobile-9, .col-mobile-10, .col-mobile-11, .col-mobile-12
+    {
+        float: left;
+        padding: 20px;
+    }
+    .col-mobile-1 {
+        width: 8.33%;
+    }
+    .col-mobile-2 {
+        width: 16.66%;
+    }
+    .col-mobile-3 {
+        width: 25%;
+    }
+    .col-mobile-4 {
+        width: 33.33%;
+    }
+    .col-mobile-5 {
+        width: 41.66%;
+    }
+    .col-mobile-6 {
+        width: 50%;
+    }
+    .col-mobile-7 {
+        width: 58.33%;
+    }
+    .col-mobile-8 {
+        width: 66.66%;
+    }
+    .col-mobile-9 {
+        width: 74.99%;
+    }
+    .col-mobile-10 {
+        width: 83.33%;
+    }
+    .col-mobile-11 {
+        width: 91.66%;
+    }
+    .col-mobile-12 {
+        width: 100%;
+    }
+}
+
+/* Styles */
+
+/* H1 Style */
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 175%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:20px;
+}
+
+/*----- Styles for Detailed Description of Dishes -----*/
+
+.dishes-description{
+    padding: 40px 15px 10px 15px;
+    border: 3px solid black;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+}
+
+/* Dishes Title (h2) Style */
+
+.dishes-title{
+    font-size: 125%;
+    font-family: Verdana;
+    text-align: center;
+
+    position: absolute;
+
+    /*This makes title aligns to the border of the father box*/
+    top: -3px;
+    right: -3px;
+
+    width: 200px;
+    height: 30px;
+
+    border: 3px solid black;
+}
+
+#fried-chicken{
+    color: rgb(138, 105, 21);
+    background-color: lightsalmon;
+}
+
+#beef{
+    color: sienna;
+    background-color:lightcyan;
+}
+
+#sushi{
+    color: teal;
+    background-color:lightgreen;
+}
+
+/* Dishes Text Style */
+
+p{
+    font-family:Helvetica;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}

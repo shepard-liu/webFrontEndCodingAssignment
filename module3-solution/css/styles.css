@@ -8,6 +8,9 @@
 #navbar-header{
     padding: 20px 0px 20px 0px ;
 } */
+#nav-button-collapsed{
+    clear: both;
+}
 
 #navbar-header-text{
     font-size: 2em;

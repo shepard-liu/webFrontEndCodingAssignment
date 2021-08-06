@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: darkgrey;
+}
+
+#navbar-header{
+    padding: 20px 0px 20px 0px ;
+}
+
+#navbar-header-text{
+    font-size: 2em;
+    font-family: Arial;
+    font-weight: bold;
+}
+#navbar-button{
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+#nav-list li{
+    border-bottom: rgb(219, 219, 219) 2px solid;
+}
+
+#nav-list li:nth-child(3){
+    border: 0px;
+}
+
+#nav-list li:hover a{
+    background-color: white;
+    color: rgb(172, 202, 39);
+}
+
+#nav-list a{
+    font-size: 1.2em;
+    font-family: Helvetica;
+    color: white;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.dish{
+    background-color: darkgrey;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
+
